@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    color: white;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    background-color: #6F6AF7;
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logo {
+    font-family: Delius Unicase;
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0 16pc 0 2pc;
+}
+
+.menu-item {
+    font-family: DM Sans;
+    font-size: 20px;
+    margin: 0 5pc 0 0;
+}
+
+form {
+    color: #555;
+    display: flex;
+    padding: 2px;
+    border: 1px solid currentColor;
+    border-radius: 5px;
+    background-color: white;
+    border-radius: 22px;
+    border-color: white;
+}
+
+input[type="search"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background-color: white;
+}
+
+input[type="search"]::placeholder {
+    color: #bbb;
+}
+
+button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+button[type="submit"]:hover {
+    opacity: 1;
+}
+
+button[type="submit"]:focus,
+input[type="search"]:focus {
+    box-shadow: 0 0 3px 0 #1183d6;
+    border-color: #1183d6;
+    outline: none;
+}
+
+.menu{
+    margin-left: 14pc;
+}
+
+textarea{
+    width: 62pc;
+    height: 17pc;
+    background-color: #E5D8FF;
+    color: #6F7373;
+    border-style: hidden;
+    border-radius: 12px;
+    padding: 16px;
+    margin-left: 2em;
+    resize: none;
+}
+
+.main-1{
+    margin: 160px 60px 90px 70px;
+}
+
+.laptop{
+    height: 19pc;
+    box-shadow: 0 9px 31px #6c6767
+}
+
+.main-2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 8pc;
+}
+
+.box{
+    height: 80px;
+    width: 270px;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: DM Sans;
+    line-height: 40px;
+    box-shadow: 0 9px 31px #6c6767
+}
+
+.box-1{
+    background-color: #929dff;
+}
+
+.box-2{
+    background-color: #734CF2;
+}
+
+.box-3{
+    background-color: #D288FF;
+}
+
+.box-4{
+    background-color: #000000;
+}
+
+.information{
+    width: 90vw;
+    height: 70vh;
+    background-color: #483EFF;
+    margin: auto;
+    border-radius: 15px;
+    margin-bottom: 2pc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-1{
+    height: 90%;
+    width: 30%;
+    border-radius: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.info{
+    height: 25%;
+    width: 90%;
+    background-color: #BCE0F6;
+    border-radius: inherit;
+    font-family: 'DM SANS';
+    color: black;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.bookmark,.setting{
+    height: 25%;
+    width: 90%;
+    border: 3px solid;
+    border-radius: inherit;
+    font-family: 'DM SANS';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.col-2{
+    width: 65%;
+    height: 90%;
+    background-color: white;
+    border-radius: inherit;
+}
+
+.heading, ul li, ul li b{
+    color: #04285A;
+}
+
+.heading{
+    padding: 2pc;
+    font-family: Inter;
+}
+
+ul li{
+    font-family: Roboto;
+    padding-bottom: 1pc;
+}
+
+ul{
+    list-style: none;
+    padding-left: 55px;
+}
+
+button{
+    background-color: black;
+    border-style: none;
+    border-radius: 4px;
+    width: 100px;
+    margin-left: 82%;
+    margin-top: 11pc;
+    height: 35px;
+    font-family: Roboto;
+    font-size: 17px;
+}
+
+.bot{
+    position: fixed;
+    bottom: 0;
+    right: 2pc;
+    width: 7pc;
+}
+
+.social{
+    position: sticky;
+    top: 90px;
+    width: 40px;
+    float: right;
+    margin-top: 15vh;
+}
